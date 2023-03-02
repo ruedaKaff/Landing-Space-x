@@ -1,39 +1,142 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
 
-.logo{
+.logo {
     width: 230px;
 }
 
 
-.size{
+.size {
     height: 100vh;
 }
 
-.home{
+.home {
     background-image: url(img/img_2.jpg);
-}   
-
-.missions{
-    background-image: url(img/Imagen_1.jpg);    
 }
 
-.overflow-scroll{
+.missions {
+    background-image: url(img/Imagen_1.jpg);
+}
+
+.overflow-scroll {
     height: 70vh;
     overflow-y: scroll;
 }
 
-.overflow-scroll::-webkit-scrollbar{
+.overflow-scroll::-webkit-scrollbar {
     display: none;
 }
 
-#cards-missions{
+#cards-missions {
     color: white;
 
 }
 
+/** Styles PRODUCTS**/
 
+.products {
+    height: auto;
+    width: 100%;
+    position: relative;
+}
+
+.columnas-productos {
+    position: relative;
+}
+
+
+.columnas-productos > button{
+    width: 180px;
+    border: none;
+    background-color: white;
+padding: 10px;
+position:absolute;
+bottom:30%;
+left: 15%;
+border-radius: 2px;
+font-style: italic
+}
+
+.columnas-productos h6{
+    text-transform: uppercase;
+font-weight: bold;
+}
+
+
+.gradiente{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(26, 0, 0, 0.281);
+}
+
+@media(max-width: 992px) {
+    .columnas-productos > img {
+        width: 100%;
+    }
+    .columnas-productos > button{
+    bottom:10%;
+    left: 50%;
+    }
+    }
+
+
+/** END Styles PRODUCTS**/
+
+
+
+
+/** Styles ABOUT**/
+
+.about {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-image: url(img/img-3.jpg);
+    align-items: center;
+    justify-content: center;
+}
+
+.div-about {
+    background-color: rgba(43, 42, 42, 0.438);
+    padding: 2px;
+    border: 1px solid white;
+}
+
+.div-about .column-2 {
+    align-items: center;
+    justify-content: center;
+}
+
+.div-about .column-2 .p {
+    font-size: 18px;
+}
+
+
+@media(max-width: 992px) {
+    .about h2 {
+        padding-top: 10px;
+    }
+
+    .about .imgelon {
+        width: 100%;
+    }
+}
+
+
+@media(max-width: 768px) {
+
+    .about .imgelon {
+        width: 100%;
+    }
+}
+
+
+
+
+/** END Styles ABOUT**/
