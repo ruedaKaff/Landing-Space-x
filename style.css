@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+ 
 }
 
 .logo {
@@ -22,7 +22,18 @@
     background-image: url(img/Imagen_1.jpg);
 }
 
-.overflow-scroll {
+
+.formulario{
+   
+    background-color: rgba(0, 0, 0, 0.185);
+}
+
+.contact{
+    color: aliceblue;
+    background-image: url(img/spacex-Ptd-iTdrCJM-unsplash.jpg);
+}
+
+.overflow-scroll{
     height: 70vh;
     overflow-y: scroll;
 }
