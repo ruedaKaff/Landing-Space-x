@@ -11,10 +11,13 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
     async></script>
 
-  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/932c26312f.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
 
   <title>SpaceX</title>
 </head>
+
 
 <body>
 
@@ -72,26 +75,9 @@
 
   <div class="container-fluid missions size py-5">
     <div class="container subhome py-5">
-      <h1 class="text-light text-center pb-4">Missions</h1>
+      <h1 class="text-light text-center pb-5">Missions</h1>
       <div class="overflow-scroll py-5 ">
-        <div class="row cards-missions">
-
-          <div class="col-12 col-xl-4">
-            <div class="card mb-3" style="max-width: 540px;">
-              <div class="row g-0">                                
-                <div class="col-4 col-md-4">
-                  <img src="https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png" class="img-fluid rounded-start py-xl-4" alt="...">
-                </div>
-                <div class="col-8 col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to ar.</p>
-                    <button type="button" class="btn btn-light">Details</button>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="row " id="cards-missions">
 
         </div>
       </div>
@@ -100,19 +86,34 @@
 
   <div class="modal-missions">
 
-  </div>
 
-  <div class="container-fluid home size d-flex flex-column-reverse py-5">
-    <div class="container subhome py-5">
-      <div class="row py-5">
-        <div class="col py-5 ">
-          <h1 class="text-light">SpaceX</h1>
-          <button type="button" class="btn btn-light">About us</button>
-        </div>
+<!-- Modal -->
+<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl">
+    <div class="modal-content " id="content_modal">
+
+      
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+<div class="container-fluid home size d-flex flex-column-reverse py-5">
+  <div class="container subhome py-5">
+    <div class="row py-5">
+      <div class="col py-5 ">
+        <h1 class="text-light">SpaceX</h1>
+        <button type="button" class="btn btn-light">About us</button>
       </div>
     </div>
   </div>
+</div>
 
 
+
+
+  <script src="app.js"></script>
 </body>
 </html>

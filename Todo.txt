@@ -1,0 +1,13 @@
+TO DO
+
+-Modal misiones.
+-Section productos
+-section about 
+-Section contacto 
+-footer
+
+Fix + estilos(css)
+-arreglar el menu desplegable del responsive,, estilos en el header
+-Modal poner centrado la ventana emergente con fondo mejor, estilizar la tabla, y los iconos.
+-Arreglar navbar ponerlo bonito, mirar los fondos que se ven pixelados
+-Ajustar imagenes de fondo en el responsive 
