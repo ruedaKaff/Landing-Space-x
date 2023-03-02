@@ -1,7 +1,8 @@
 TO DO
 
--Modal misiones.
--Section productos
+-Modal misiones. r
+-Section missions r
+-section products
 -section about 
 -Section contacto 
 -footer
