@@ -1,53 +1,118 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sp">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/932c26312f.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <title>Space X</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"
+    async></script>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>SpaceX</title>
 </head>
 
 <body>
 
-    <header>
-        <nav class="navbar navbar-expand-lg">
-            <div class="container">
-                <img src="img/spacexLogo.png" alt="" class="logo">
-                <a class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                    <i class="fa-solid fa-bars"></i>
-                </a>
-         
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top pt-3">
+    <div class="container">
+      <a href="#">
+        <img src="img/logo.png" class="img-fluid logo" alt="">
+      </a>
 
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-navv pt-2">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Disabled</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link">Disabled</a>
-                        </li>
-                    </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse flex-row-reverse" id="navbarNav">
+        <ul class="navbar-nav text-center">
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Missions</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Products</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">About us</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <div class="container-fluid home size d-flex flex-column-reverse py-5">
+    <div class="container subhome py-5">
+      <div class="row py-5">
+        <div class="col py-5 ">
+          <h1 class="text-light">SpaceX</h1>
+          <button type="button" class="btn btn-light">About us</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container-fluid missions size py-5">
+    <div class="container subhome py-5">
+      <h1 class="text-light text-center pb-4">Missions</h1>
+      <div class="overflow-scroll py-5 ">
+        <div class="row cards-missions">
+
+          <div class="col-12 col-xl-4">
+            <div class="card mb-3" style="max-width: 540px;">
+              <div class="row g-0">                                
+                <div class="col-4 col-md-4">
+                  <img src="https://images2.imgbox.com/3c/0e/T8iJcSN3_o.png" class="img-fluid rounded-start py-xl-4" alt="...">
                 </div>
+                <div class="col-8 col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to ar.</p>
+                    <button type="button" class="btn btn-light">Details</button>
+                  </div>
+                </div>
+              </div>
             </div>
-        </nav>
-    </header>
-</body>
+          </div>
 
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal-missions">
+
+  </div>
+
+  <div class="container-fluid home size d-flex flex-column-reverse py-5">
+    <div class="container subhome py-5">
+      <div class="row py-5">
+        <div class="col py-5 ">
+          <h1 class="text-light">SpaceX</h1>
+          <button type="button" class="btn btn-light">About us</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
 </html>

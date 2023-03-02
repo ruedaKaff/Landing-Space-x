@@ -1,57 +1,33 @@
-* {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-header {
-  height: 100vh;
-  background-color: rgba(0, 0, 0, 0.836);
+.logo{
+    width: 230px;
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  font-style: italic;
-  color: white;
-}
-.navbar .fa-bars {
-  color: white;
-}
-.navbar .logo {
-  width: 220px;
-  height: auto;
-}
-.navbar .navbar-toggler {
-  border: none;
-}
-.navbar .navbar-navv {
-  margin-left: 30px;
-  display: flex;
-  color: white;
-  margin-top: 18px;
-}
-.navbar .navbar-navv .navbar-collapse {
-  width: 10%;
-}
-.navbar .navbar-navv .nav-item {
-  margin: 0px 5%;
-}
-.navbar .navbar-navv .nav-item .nav-link {
-  font-weight: bold;
-  font-size: 14px;
-  font-family: Verdana;
-  color: white;
+
+.size{
+    height: 100vh;
 }
 
-@media (max-width: 992px) {
-  .logo {
-    margin: auto;
-  }
-  .nav-link {
-    margin-top: 10px;
-  }
-  .navbar-navv {
-    text-align: center;
-  }
-}/*# sourceMappingURL=style.css.map */
+.home{
+    background-image: url(../img/img_2.jpg);
+}   
+
+.missions{
+    background-image: url(../img/Imagen_1.jpg);    
+}
+
+.overflow-scroll{
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.overflow-scroll::-webkit-scrollbar{
+    display: none;
+}
+
+
