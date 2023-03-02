@@ -148,6 +148,20 @@ font-weight: bold;
 }
 
 
-
-
 /** END Styles ABOUT**/
+
+/**Footer **/
+ 
+.footer{
+    background-color: black;
+}
+
+.linkfoot, .linkfoot:visited{
+    color: white;
+}
+
+.linkfoot:hover{
+    color: gray;
+}
+/** fin footer **/
+
