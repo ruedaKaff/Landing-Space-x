@@ -25,12 +25,14 @@
 
 
 .home {
+    height: 100vh;
     background-image: url(img/imagen5.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .missions {
+    height: 100vh;
     background-image: url(img/Imagen_1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -249,9 +251,17 @@ button:hover {
     color: white;
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
+    height: 80vh;
     background-image: url(img/Imagen_4.jpg);
 }
+
+@media(max-width: 992px) {
+
+    .contact{
+        height: auto;
+    }
+}
+
 
 .contact h2{
     text-transform: uppercase;
@@ -327,4 +337,10 @@ button:hover {
 
 .bg-modal{
     background-color: rgba(0, 0, 0, 0.411);
+}
+
+.button_mission:hover{
+    background-color: rgba(255, 255, 255, 0.562);
+    color: black;
+    border-color: white;
 }
