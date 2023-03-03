@@ -38,23 +38,23 @@
         <ul class="navbar-nav text-center">
 
           <li class="nav-item">
-            <a class="nav-links" href="#">Home</a>
+            <a class="nav-links" href="#home">Home</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-links" href="#">Missions</a>
+            <a class="nav-links" href="#missions">Missions</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-links" href="#">Products</a>
+            <a class="nav-links" href="#products">Products</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-links" href="#">About us</a>
+            <a class="nav-links" href="#about">About us</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-links" href="#">Contact</a>
+            <a class="nav-links" href="#contact">Contact</a>
           </li>
 
         </ul>
@@ -66,12 +66,13 @@
 
   <!--Section header start-->
 
-  <div class="container-fluid home size d-flex flex-column-reverse py-5">
+  <div class="container-fluid home size d-flex flex-column-reverse py-5" id="home">
     <div class="container subhome py-5">
       <div class="row py-5">
         <div class="col py-5 ">
           <h1 class="text-light">SpaceX</h1>
           <button class=" about-us-button">About us</button>
+          <a href="#home"><img src="img/elonarriba.jpg" alt="" class="subir"></a>
         </div>
       </div>
     </div>
@@ -80,7 +81,7 @@
   <!--Section header end-->
   <!--Section missions start-->
 
-  <div class="container-fluid missions size">
+  <div class="container-fluid missions size" id="missions">
     <div class="container subhome py-5">
       <h1 class="text-light text-center pb-5">Missions</h1>
       <div class="overflow-scroll py-5 ">
@@ -90,169 +91,150 @@
       </div>
     </div>
   </div>
-    <!-- Modal start -->
-    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered modal-xl">
-        <div class="modal-content " id="content_modal">
+  <!-- Modal start -->
+  <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content bg-modal " id="content_modal">
 
 
-        </div>
       </div>
     </div>
+  </div>
 
   </div>
 
-        <!-- Modal end -->
+  <!-- Modal end -->
 
-        <!--Section missions end-->
+  <!--Section missions end-->
 
-        <!--Section products start-->
+  <!--Section products start-->
 
-        <section class="products">
+  <section class="products text-center py-2" id="products">
+    <h1 class="text-white">Shop</h1>
+    <div class="py-2 d-flex flex-wrap">
+      <div class="col-md-12 col-lg-4 py-1 columnas">
+        <img src="img/product1.png" alt="" class="img-fluid">
+        <button class="button1">
+          <h6>products</h6>
+          view products!
+        </button>
+      </div>
+      <div class="col-md-12 col-lg-4 py-1 columnas">
+        <img src="img/product3.jpg" alt="" class="img-fluid">
+        <button class="button2">
+          <h6>products</h6>
+          view products!
+        </button>
+      </div>
+      <div class="col-md-12 col-lg-4 py-1 columnas">
+        <img src="img/product2.jpg" alt="" class="img-fluid">
+        <button class="button3">
+          <h6>products</h6>
+          view products!
+        </button>
+      </div>
+    </div>
+  </section>
 
-          <div class="row">
-            <div class="col-lg-4 col-md-12 columnas-productos">
-              <img src="img/product3.jpg" alt="" class="">
-              <div class="gradiente">
-              </div>
-              <button>
-                <h6>product</h6>
-                view products
-              </button>
-            </div>
-            <div class="col-lg-4 col-md-12 columnas-productos">
-              <img src="img/product3.jpg" alt="" class="">
-              <div class="gradiente">
-              </div>
-              <button>
-                <h6>product</h6>
-                view products
-              </button>
-            </div>
-            <div class="col-lg-4 col-md-12 columnas-productos">
-              <img src="img/product3.jpg" alt="" class="">
-              <div class="gradiente">
-              </div>
-              <button>
-                <h6>product</h6>
-                view products
-              </button>
-            </div>
-          </div>
+  <!--Section products end-->
 
+  <!--Section about start-->
 
-        </section>
-
-        <!--Section products end-->
-
-        <!--Section about start-->
-
-        <section class="about py-5 d-flex">
-          <div class="container div-about m-2">
-            <div class="row m-1">
-              <div class="col-lg-4 col-md-12">
-                <img src="img/elon.jpg" alt="" class="img-fluid .imgelon">
-              </div>
-
-              <div class="col-lg-8 col-md-12 text-justify column-2 d-flex text-white">
-                <div>
-                  <h2 class="mb-3">About us</h2>
-                  <p class="text-justify">
-                    SpaceX has gained worldwide attention for a series of historic milestones. It is the only private
-                    company
-                    capable of returning a spacecraft from low-Earth orbit, and in 2012 our Dragon spacecraft became the
-                    first
-                    commercial spacecraft to deliver cargo to and from the International Space Station. And in 2020,
-                    SpaceX
-                    became the first private company to take humans there as well. Click through the timeline above to
-                    see
-                    some of our milestone accomplishments.
-                  </p>
-                </div>
-              </div>
-
-            </div>
-          </div>
-        </section>
-
-        <!--Section about end-->
-
-        <!--Section contacts start-->
-
-        <div class="container-fluid  contact size">
-
-          <div class="container py-5">
-
-            <div class="row py-5">
-
-              <div class="col">
-
-                <h1 class="">Contact</h1>
-
-                <div class="container formulario py-5">
-                  <form>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Email address</label>
-                      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-                    </div>
-                    <div class="mb-3">
-                      <label for="exampleInputEmail1" class="form-label">Name</label>
-                      <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                      <div id="emailHelp" class="form-text">We'll never share your personal information with anyone
-                        else.</div>
-                    </div>
-                    <div class="">
-                      <label for="exampleInputPassword1" class="form-label">Comments</label>
-                      <textarea type="text" class="form-control" id="exampleInputPassword1"
-                        placeholder="Tell us you opinion"></textarea>
-                    </div>
-                    <div class="mb-3 form-check">
-                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                      <label class="form-check-label" for="exampleCheck1">Send me hot news</label>
-                    </div>
-                    <button type="submit" class="btn btn-dark">Submit</button>
-                  </form>
-                </div>
-              </div>
-
-
-              <div class="col">
-
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.5551497613073!2d-73.12692659791547!3d7.061438474561969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e683fed828a86c7%3A0xa6a758358aa25167!2sCampus%20Land!5e0!3m2!1sen!2sco!4v1677792466475!5m2!1sen!2sco"
-                  width="625" height="544" style="border:0;" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade" class=""></iframe>
-
-              </div>
-            </div>
-
-
-          </div>
-
+  <section class="about py-5 d-flex" id="about">
+    <div class="container div-about m-2">
+      <div class="row m-1">
+        <div class="col-lg-4 col-md-12">
+          <img src="img/elon.jpg" alt="" class="img-fluid .imgelon">
         </div>
-        <!--Section contacts end-->
 
-            <!--Footer  -->
-        <div class="container-fluid footer  d-flex align-items-center py-4">
-          <div class="container subfooter">
-            <div class="row">
-              <p class="flex-xl-row text-center d-xl-flex justify-content-xl-center">
-                <a class="nav-link linkfoot" href="#">SpaceX</a>
-                <a class="nav-link linkfoot" target="_blank" href="https://www.instagram.com/spacex/">INSTAGRAM</a>
-                <a class="nav-link linkfoot" target="_blank" href="https://twitter.com/spacex">TWITTER</a>
-                <a class="nav-link linkfoot" target="_blank" href="https://www.linkedin.com/company/spacex/">LINKEDIN</a>
-                <a class="nav-link linkfoot" target="_blank" href="https://www.flickr.com/photos/spacex">FLICKR</a>
-                <a class="nav-link linkfoot" target="_blank" href="https://www.youtube.com/spacex">YOUTUBE</a>
-              </p>
-            </div>
+        <div class="col-lg-8 col-md-12 text-justify column-2 d-flex text-white">
+          <div>
+            <h2 class="mb-3">About us</h2>
+            <p class="text-justify">
+              SpaceX has gained worldwide attention for a series of historic milestones. It is the only private
+              company
+              capable of returning a spacecraft from low-Earth orbit, and in 2012 our Dragon spacecraft became the
+              first
+              commercial spacecraft to deliver cargo to and from the International Space Station. And in 2020,
+              SpaceX
+              became the first private company to take humans there as well. Click through the timeline above to
+              see
+              some of our milestone accomplishments.
+            </p>
           </div>
         </div>
 
-      <!-- Fin footer -->
+      </div>
+    </div>
+  </section>
+
+  <!--Section about end-->
+
+  <!--Section contacts start-->
+
+  <div class="container-fluid contact py-5" id="contact">
+    <div class="row contact-row px-5 ">
+      <div class="col-lg-6 col-md-12 order-lg-1 order-md-2 order-sm-2 mt-1">
+        <h2 class="px-2">contacts</h2>
+        <div class="container formulario py-3 ">
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Name</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">We'll never share your personal information with anyone
+                else.</div>
+            </div>
+            <div class="">
+              <label for="exampleInputPassword1" class="form-label">Comments</label>
+              <textarea type="text" class="form-control" id="exampleInputPassword1"
+                placeholder="Tell us you opinion"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Send me hot news</label>
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </form>
+        </div>
+      </div>
 
 
-        <script src="app.js"></script>
+      <div class="col-lg-6 col-md-12 diviframe d-flex order-lg-2 order-md-1 order-sm-1  mt-5 pt-3">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.5551497613073!2d-73.12692659791547!3d7.061438474561969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e683fed828a86c7%3A0xa6a758358aa25167!2sCampus%20Land!5e0!3m2!1sen!2sco!4v1677792466475!5m2!1sen!2sco"
+          width="600" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade" class="iframe-map"></iframe>
+      </div>
+    </div>
+  </div>
+
+  <!--Section contacts end-->
+
+  <!--Footer  -->
+
+  <div class="container-fluid footer  d-flex align-items-center py-4">
+    <div class="container subfooter">
+      <div class="row">
+        <p class="flex-xl-row text-center d-xl-flex justify-content-xl-center">
+          <a class=" linkfoot" href="#">SpaceX</a>
+          <a class=" linkfoot" target="_blank" href="https://www.instagram.com/spacex/%22%3EINSTAGRAM">Instagram</a>
+          <a class=" linkfoot" target="_blank" href="https://twitter.com/spacex%22%3ETWITTER">Twitter</a>
+          <a class="linkfoot" target="_blank" href="https://www.linkedin.com/company/spacex/%22%3ELINKEDIN">LinkedIn</a>
+          <a class=" linkfoot" target="_blank" href="https://www.flickr.com/photos/spacex%22%3EFLICKR">Flickr</a>
+          <a class=" linkfoot" target="_blank" href="https://www.youtube.com/spacex%22%3EYOUTUBE">Youtube</a>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fin footer -->
+
+  <script src="app.js"></script>
 </body>
 
 </html>

@@ -81,18 +81,18 @@ function htmlLaunch(data) {
     let html = "";
       html += `
       
-      <div class="modal-header">
-      <h5 class="modal-title" id="exampleModalLabel">Mission: ${data.mission_name}</h5>
+      <div class="modal-header bg-modal ">
+      <h2 class=" text-white modal-title" id="exampleModalLabel">Mission: ${data.mission_name}</h2>
       <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
     </div>
-    <div class="modal-body">
+    <div class="modal-body bg-modal">
         <div class= "video-modal">
             <iframe width="100%" height="480" 
             src="https://www.youtube.com/embed/${data.links.youtube_id}">
             </iframe>
         </div>
 
-        <table class="table table-bordered">
+        <table class=" table mt-2 table-bordered bg-modal text-white ">
             <tbody>
                 <tr>
                     <th scope="col">Year</th>
@@ -113,9 +113,9 @@ function htmlLaunch(data) {
                     <th scope="row">Links</th>
                     <td>
 
-                    <a target="_blank" href="${data.links.wikipedia}">  <i class="fa-brands fa-wikipedia-w"></i></a>
-                    <a target="_blank" href="${data.links.video_link}">  <i class="fa-brands fa-youtube"></i></a>
-                    <a target="_blank" href="${data.links.article_link}">  <i class="fa-solid fa-newspaper"></i></a>                
+                    <a target="_blank" href="${data.links.wikipedia}">  <i class="text-white fa-brands fa-wikipedia-w text-dark display-5 mx-2"></i></a>
+                    <a target="_blank" href="${data.links.video_link}">  <i class="text-white fa-brands fa-youtube text-dark display-5 mx-2"></i></a>
+                    <a target="_blank" href="${data.links.article_link}">  <i class="text-white fa-solid fa-newspaper text-dark display-5 mx-2"></i></a>                
 
                     </td>
                 </tr>
