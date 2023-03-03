@@ -1,5 +1,5 @@
 # Landing-Space-x
 This is a landingpage made in B5 just for study purpose
 
+![Screenshot](qr-code.png)
 
-<img src="img/qr-code.png" alt="MDN">
